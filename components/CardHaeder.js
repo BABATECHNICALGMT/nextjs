@@ -1,8 +1,12 @@
 import React from 'react';
 
+
 const CardHaeder = () => {
+
+    
+
     return (
-        <div className='card p-3 bg-white w-1/3 rounded-lg'>
+        <div className='card p-3 bg-gray-200 w-1/3 rounded-lg'>
             <div className='text-box'>
                 <div className='flex justify-between'>
                     <div className='card-title flex flex-col'>
@@ -18,7 +22,8 @@ const CardHaeder = () => {
                 </div>
             </div>
             <div className='graph image text-black'>
-                chart image
+                <div className='chart-card w-full h-[180px] mt-2 rounded-lg bg-green-700'>
+                </div>
             </div>
         </div>
     );

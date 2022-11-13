@@ -9,7 +9,7 @@ import UserTag from './UserTag';
 function SlideNavbar() {
   return (
     <div className='flex gap-4'>
-      <div className='bg-red-400 min-h-screen w-1/12 text-gray-100 px-1'>
+      <div className='bg-white min-h-screen w-1/12 text-gray-100 px-1'>
         <div className='py-3 flex flex-col text-center items-center justify-end'>
           <div className='w-14 h-14 rounded-full bg-blue-600'></div>
           <div className='mt-7'>
@@ -24,7 +24,7 @@ function SlideNavbar() {
           </div>
         </div>
       </div>
-      <div className='bg-red-400 min-h-screen w-3/4 text-gray-100 px-2 py-1'>
+      <div className='bg-white min-h-screen w-3/4 text-black px-2 py-1'>
         <div className='flex justify-between align-items-center'>
           <div className='font-thin '>
             <h1 className='text-4xl font-bold '><i className='font-thin'>Hi,</i> Shahin Alam</h1>
@@ -47,8 +47,14 @@ function SlideNavbar() {
           <CardHaeder />
           <CardHaeder />
         </div>
+        <div className='chart-paper '>
+          <div className='flex container-lg h-auto gap-2'>
+            <div className='h-[180px] w-2/3 rounded-lg bg-slate-300'></div>
+            <div className='h-[180px] w-1/3 rounded-lg bg-green-300'></div>
+          </div>
+        </div>
       </div>
-      <div className='bg-red-400 min-h-screen w-3/12 text-gray-100 p-4'>
+      <div className='bg-white min-h-screen w-3/12 text-black p-4'>
         <div className='box-1'>
           <div className='bg-gray-800 w-full h-36 rounded-lg'></div>
           <div className='text-black mt-4'>
